@@ -12,7 +12,7 @@
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>19</javafx.version>
+        <javafx.version>19-ea+7</javafx.version>
     </properties>
 
     <dependencies>
@@ -22,5 +22,13 @@
             <version>${javafx.version}</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>mvn-repo</name>
+            <url>file:///C:\Users\Danie\OneDrive\Dokumente\GitHub\mvn-repo</url>
+        </repository>
+    </distributionManagement>
 
 </project>
