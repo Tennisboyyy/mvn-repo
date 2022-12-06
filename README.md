@@ -1,6 +1,7 @@
 # mvn-repo
-
-*<repositories>
+______
+```
+<repositories>
   <repository>
     <id>mvn-repo-mvn-repo</id>
     <url>https://raw.github.com/TennisBoyyy/mvn-repo/mvn-repo/</url>
@@ -10,3 +11,4 @@
     </snapshots>
   </repository>
 </repositories>
+```
